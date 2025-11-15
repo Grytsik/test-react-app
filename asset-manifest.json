@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-react-app/static/css/main.d2e88a0b.css",
+    "main.js": "/test-react-app/static/js/main.ad56c9f9.js",
+    "static/media/rocket-footer.svg": "/test-react-app/static/media/rocket-footer.bf2dbb7c0c33ada062ba83af3725edbe.svg",
+    "static/media/main-bg.webp": "/test-react-app/static/media/main-bg.4104a81534fcda34dd61.webp",
+    "static/media/bg-4.webp": "/test-react-app/static/media/bg-4.80f97bc60b785c7800cd.webp",
+    "static/media/bg-3.webp": "/test-react-app/static/media/bg-3.e7da62144e27aecc5830.webp",
+    "static/media/bg-2.webp": "/test-react-app/static/media/bg-2.36aeeb42118257c67508.webp",
+    "static/media/bg-1.webp": "/test-react-app/static/media/bg-1.e50d5b5b0b8c9d42ee35.webp",
+    "static/media/earth.webp": "/test-react-app/static/media/earth.6dd0e614a53e53fe16f2.webp",
+    "static/media/logo.svg": "/test-react-app/static/media/logo.9d0e3190407a9ba302fff02d8ec4b1ed.svg",
+    "static/media/icon-burger.svg": "/test-react-app/static/media/icon-burger.5fdc8f10c95015c32240615c1ad34fbf.svg",
+    "index.html": "/test-react-app/index.html",
+    "main.d2e88a0b.css.map": "/test-react-app/static/css/main.d2e88a0b.css.map",
+    "main.ad56c9f9.js.map": "/test-react-app/static/js/main.ad56c9f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2e88a0b.css",
+    "static/js/main.ad56c9f9.js"
+  ]
+}
