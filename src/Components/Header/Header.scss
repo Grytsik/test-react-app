@@ -1,0 +1,11 @@
+.header {
+  font-family: $font-lato;
+  background: $color-black;
+  color: $color-white;
+  padding: 20px 0;
+
+  &__container {
+    @include flex-between-center;
+  }
+}
+

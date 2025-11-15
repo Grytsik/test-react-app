@@ -1,0 +1,20 @@
+//abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+//Reset
+@import "base/reset";
+
+//Layouts
+@import "layouts/container";
+
+//components
+@import "components/btn";
+
+// Header
+@import "Components/Header/Header";
+@import "Components/Navigation/Navigation";
+@import "Components/Discover/Discover";
+@import "Components/Offer/Offer";
+@import "Components/Readmore/Readmore";
+@import "Components/Footer/Footer";

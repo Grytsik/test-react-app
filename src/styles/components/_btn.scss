@@ -1,0 +1,35 @@
+.btn {
+  padding: 7px 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+
+  &--outlined {
+    background: $outlined-background;
+    color: $outlined-color;
+    border: 2px solid $outlined-color;
+  }
+
+  &--primary {
+    background: $primary-background;
+    color: $primary-color;
+  }
+}
+
+@media (hover: hover) {
+  .btn {
+    &:hover {
+      opacity: 0.7;
+      @include transition(opacity);
+    }
+  }
+}
+
+@media (hover: none) {
+  .btn {
+    &:active {
+      opacity: 0.7;
+      @include transition(opacity);
+    }
+  }
+}

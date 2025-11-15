@@ -1,0 +1,17 @@
+.footer {
+  font-weight: $bold;
+  font-family: $font-lato;
+  padding: 20px 0;
+  background: $color-black;
+
+  &__container {
+    @include flex-center;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: $color-yellow;
+    font-weight: $extra-bold;
+  }
+}

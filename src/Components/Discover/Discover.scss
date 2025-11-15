@@ -1,0 +1,59 @@
+.discover {
+  font-family: $font-lato;
+  width: 100%;
+  overflow: hidden;
+  background: 
+    url('../../img/earth.webp') no-repeat right center / 300px,
+    url('../../img/main-bg.webp') no-repeat center / cover;
+  padding: 80px 0;
+
+  &__item {
+    max-width: 500px;
+
+    &-title {
+      @include adaptive-title(52px, 45px, 36px);
+      line-height: 1;
+
+      .text-pink {
+        color: $color-pink;
+      }
+    }
+
+    &-text {
+      @include adaptive-text(28px, 22px, 18px);
+      margin: 20px 0;
+
+      .text-yellow {
+        color: $color-yellow;
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .discover {
+    background: 
+      url('../../img/earth.webp') no-repeat calc(100% + 100px) center / 300px,
+      url('../../img/main-bg.webp') no-repeat center / cover;
+  }
+}
+
+@media (max-width: $mobile) {
+  .discover {
+    padding: 40px 0;
+    min-height: 450px;
+    @include flex-align-end;
+    background: 
+      url('../../img/earth.webp') no-repeat calc(100% - 20px) -80px / 300px,
+      url('../../img/main-bg.webp') no-repeat center / cover;
+
+      &__item {
+        @include flex-center;
+        flex-direction: column;
+
+        &-title {
+          text-align: center;
+        }
+      }
+  }
+}

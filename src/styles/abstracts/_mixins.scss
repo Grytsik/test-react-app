@@ -1,0 +1,70 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-align-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+@mixin burger-whiteLine($top, $height) {
+  position: absolute;
+  top: $top;
+  width: 100%;
+  height: $height;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+@mixin transition($anim: all) {
+  transition: $anim 0.3s linear;
+}
+
+@mixin adaptive-title($lg, $md: null, $sm: null) {
+  font-size: $lg;
+  font-weight: $extra-bold;
+  color: $color-white;
+
+  @if $md {
+    @media (max-width: 767px) {
+      font-size: $md;
+    }
+  }
+
+  @if $sm {
+    @media (max-width: 576px) {
+      font-size: $sm;
+    }
+  }
+}
+
+@mixin adaptive-text($lg, $md: null, $sm: null) {
+  font-size: $lg;
+  font-weight: $extra-bold;
+  color: $color-white;
+
+  @if $md {
+    @media (max-width: $tablet) {
+      font-size: $md;
+    }
+  }
+
+  @if $sm {
+    @media (max-width: $mobile) {
+      font-size: $sm;
+    }
+  }
+}
